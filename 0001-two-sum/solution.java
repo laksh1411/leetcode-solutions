@@ -9,7 +9,8 @@ class Solution {
                 if(sum==target){
                     arr[k]=i;
                     arr[++k]=j;
-                    return arr;
+                    //return arr;
+                    break;
                 }
             }
         }
